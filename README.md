@@ -6,7 +6,7 @@
 
 ## Funcionalidades:
 <p align="justify"> No site, você pode conferir o design utilizado aproveitando as mecânicas de FlexBox e Grid Layout dentro do CSS, tambêm dando destaque ao Media Query, oferecendo responsividade para todo o projeto (como o display de menu-hamburger🍔 para dispositivos móveis!). Além disso, vale ressaltar as animações utilizando os keyframes, ferramenta que possibilita a execução de tarefas dentro do website de forma mais fluida e agradável para o usuário</p>
-<img src="https://github.com/RecheEduardo/EduardoReche-Portfolio/blob/main/wallpaperportfolio.png?raw=true" width="100%" padding-top="2000px" align="center">
+<img src="https://github.com/RecheEduardo/EduardoReche-Portfolio/blob/main/sitewallpaper.png?raw=true" width="100%" padding-top="2000px" align="center">
 
 ## Tecnologias Utilizadas:
 
