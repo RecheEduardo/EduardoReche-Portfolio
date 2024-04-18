@@ -527,12 +527,12 @@ body {
     }
 
     .itens{
-        width: 64px;
-        height: 64px;
+        width: 50px;
+        height: 50px;
     }
 
     .itens img{
-        width: 64px;
+        width: 50px;
     }
 
     .nav.active .menu{
