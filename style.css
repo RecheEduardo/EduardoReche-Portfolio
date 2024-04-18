@@ -11,7 +11,7 @@ body {
 }
 
 .homepage{
-    background-image: url(imgs/wallpaper.jpg);
+    background-image: url(imgs/wallpaper.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
