@@ -32,6 +32,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    animation: fade-inY 1s;
 }
 
 .site-logo {
@@ -114,6 +115,11 @@ body {
     bottom: 30px;
     right: 80px;
     position: absolute;
+    animation: fade-inX 1s;
+}
+
+.site-title{
+    animation: fade-inX 1s;
 }
 
 .home-title{
@@ -131,6 +137,7 @@ body {
     gap: 20px;
     bottom: 30px;
     position: absolute;
+    animation: fade-inX 1s;
     
 }
 
@@ -248,7 +255,7 @@ body {
 
 .description-text{
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     margin-block-end: 10px;
 }
 
@@ -409,6 +416,38 @@ body {
     filter: none;
     transform: scale(0.95);
 }
+
+.top-button{
+    background-color: rgb(29, 17, 1);
+    color: beige;
+    font-weight: 600;
+    padding-inline: 50px;
+    padding-bottom: 25px;
+    margin-top: -25px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-button a{
+    text-decoration: none;
+    color: rgb(29, 17, 1);
+    background-color: beige;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.top-button a:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
 
 .bottom-bar{
     display: flex;
@@ -677,10 +716,22 @@ body {
 
 }
 
-@keyframes fade-in { 
+@keyframes fade-inX { 
     from {
         opacity: 0%;
         transform: translateY(40px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-inY { 
+    from {
+        opacity: 0%;
+        transform: translateY(-50px);
     }
 
     to {
