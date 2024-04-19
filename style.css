@@ -20,7 +20,7 @@ body {
     -moz-box-shadow: inset 0px 0px 107px 24px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 107px 24px rgba(0,0,0,0.75);
     padding-inline: 50px;
-    height: 100vh;
+    height: 100dvh;
     position: relative;
 }
 
