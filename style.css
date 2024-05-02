@@ -20,7 +20,7 @@ body {
     -moz-box-shadow: inset 0px 0px 107px 24px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 107px 24px rgba(0,0,0,0.75);
     padding-inline: 50px;
-    height: 100dvh;
+    height: 100svh;
     position: relative;
 }
 
@@ -714,6 +714,12 @@ body {
         font-size: 14px;
     }
 
+}
+
+@media (max-width: 400px){
+    .home-title{
+        font-size: 3rem;
+    }
 }
 
 @keyframes fade-inX { 
